@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Bubblebody';
+    src: url(../public/fonts/bubbleboddyneue-regular.woff) format('woff'),
+        url(../public/fonts/bubbleboddyneue-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../public/fonts/Comfortaa-VariableFont_wght.woff) format('woff'),
+        url(../public/fonts/Comfortaa-VariableFont_wght.ttf) format('truetype');
+    font-weight: 300 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none;
+   font-family: "Comfortaa", sans-serif;
+   font-style: normal;
+   text-decoration: none;
+   scroll-behavior: smooth;
+}
+
+:root {
+    --bei: #F9D0A3;
+    --ylw: #FDD90B;
+    --blk: #151217;
+    --red: #DA001E;
+}
+
