@@ -1,17 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: 'Bubblebody';
-    src: url(../public/fonts/bubbleboddyneue-regular.woff) format('woff'),
-        url(../public/fonts/bubbleboddyneue-regular.ttf) format('truetype');
+    src: url(assets/fonts/bubbleboddyneue-regular.woff) format('woff'),
+        url(assets/fonts/bubbleboddyneue-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url(../public/fonts/Comfortaa-VariableFont_wght.woff) format('woff'),
-        url(../public/fonts/Comfortaa-VariableFont_wght.ttf) format('truetype');
-    font-weight: 300 900;
+    src: url(assets/fonts/Comfortaa-VariableFont_wght.woff) format('woff'),
+        url(assets/fonts/Comfortaa-VariableFont_wght.ttf) format('truetype');
+    font-weight: 300 700;
     font-style: normal;
     font-display: swap;
 }
@@ -35,3 +35,11 @@
     --red: #DA001E;
 }
 
+body {
+    background-color: var(--ylw);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bubblebody';
+    margin-bottom: 10px;
+}
