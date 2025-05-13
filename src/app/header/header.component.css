@@ -1,5 +1,6 @@
 header {
     background-color: var(--blk);
+    width: 100%;
 }
 
 img {
@@ -8,22 +9,23 @@ img {
 }
 
 div {
-    width: 100%;
-    height: 20%;
     background-color: var(--blk);
+}
 
+h1 {
+    color: var(--red);
 }
 
 nav {
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--blk);
 }
 
 ul {
-    width: 75vw;
+    width: 65vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -36,12 +38,10 @@ li {
 
 .nav-link {
     font-family: 'Comfortaa', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--red);
     text-decoration: none;
 }
-
-
 
 .nav-link:hover {
     color: rgb(218, 0, 30,0.8);
