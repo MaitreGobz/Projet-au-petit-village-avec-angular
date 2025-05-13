@@ -1,0 +1,19 @@
+footer {
+    background-color: var(--bei);
+    position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+}
+
+.mention {
+    text-align: center;
+}
+
+img {
+    color: var(--blk);
+}
+
+img:hover {
+    opacity: 0.6;
+}
