@@ -1,0 +1,25 @@
+<section class="home">
+    <div class="presentation">
+        <div *ngFor="let info of infos">
+            <h1 class="m-3">{{ info.title }}</h1>
+            <img [src]="info.img" class="mb-3" [alt]="info.alt">
+            <p>{{ info.text }} </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div>
+        <h1 class="text-center m-5">Nos produits</h1>
+        <div class="input-group m-5 w-50">
+            <span class="input-group-text" id="inputGroup-sizing-default">
+                <img src="assets/images/icons8-loupe-24.png" alt="Image d'une loupe">
+            </span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Rechercher un produit"[(ngModel)]="nameSearch">
+        </div>
+        <select class="form-select m-5 w-25" [(ngModel)]="sortPrice">
+            <option value="ascending">Prix croissant</option>
+            <option value="descending">Prix décroissant</option>
+        </select>
+        <app-products [products]="products" [sortDirection]="sortPrice" [nameSearch]="nameSearch"></app-products>
+    </div>
+</section>

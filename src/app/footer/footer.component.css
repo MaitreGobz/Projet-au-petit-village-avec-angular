@@ -1,9 +1,5 @@
 footer {
     background-color: var(--bei);
-    position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
 }
 
 .mention {
@@ -16,4 +12,14 @@ img {
 
 img:hover {
     opacity: 0.6;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  padding: 10px 14px;
 }

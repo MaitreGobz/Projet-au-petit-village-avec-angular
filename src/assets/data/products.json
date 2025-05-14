@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Astérix",
+        "description": "Figurine du célèbre Astérix.",
+        "img":"assets/images/figurine-asterix.jpg",
+        "alt": "Image d'une figurine d'Astérix",
+        "dimension": "10 cm",
+        "price" : 15.90
+    },
+    {
+        "id": 2,
+        "name": "Obélix",
+        "description": "Figurine du célèbre Obélix.",
+        "img":"assets/images/figurine-obelix.jpg",
+        "alt": "Image d'une figurine d'Obélix",
+        "dimension": "14 cm",
+        "price" : 17.90
+    },
+    {
+        "id": 3,
+        "name": "Idéfix",
+        "description": "Figurine du célèbre Idéfix.",
+        "img":"assets/images/figurine-idefix.jpg",
+        "alt": "Image d'une figurine d'Idéfix",
+        "dimension": "6 cm",
+        "price" : 12.90
+    },
+    {
+        "id": 4,
+        "name": "Panoramix",
+        "description": "Figurine du célèbre Panoramix.",
+        "img":"assets/images/figurine-panoramix.jpg",
+        "alt": "Image d'une figurine de Panoramix",
+        "dimension": "12 cm",
+        "price" : 14.90
+    },
+    {
+        "id": 5,
+        "name": "Abraracourcix",
+        "description": "Figurine du célèbre Abraracourcix.",
+        "img":"assets/images/figurine-abraracourcixs.jpg",
+        "alt": "Image d'une figurine d'Abraracourcix",
+        "dimension": "12 cm",
+        "price" : 16.90
+    },
+    {
+        "id": 6,
+        "name": "Assurancetourix",
+        "description": "Figurine du célèbre Assurancetourix.",
+        "img":"assets/images/figurine-assurancetourix.jpg",
+        "alt": "Image d'une figurine d'Assurancetourix",
+        "dimension": "10 cm",
+        "price" : 10.90
+    }
+]
