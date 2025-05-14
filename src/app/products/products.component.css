@@ -1,0 +1,12 @@
+.card {
+    border: solid, var(--blk), 0.2rem;
+}
+
+.card-body {
+    
+    text-align: center;
+}
+
+p#no-result {
+    font-size: 3rem;
+}
