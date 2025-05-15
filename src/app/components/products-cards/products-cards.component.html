@@ -1,12 +1,14 @@
 <div>
     <div class="d-flex flex-wrap justify-content-around m-5">
         <div *ngIf="(products | filterByName:nameSearch | sortByPrice:sortDirection).length > 0; else noResults" class="d-flex flex-wrap justify-content-around w-100">        
-            <div class="card col-sm-6 col-md-4 col-lg-3 m-4" *ngFor="let product of products | filterByName:nameSearch | sortByPrice:sortDirection">
+            <div class="card col-sm-6 col-md-4 col-lg-3 m-4" *ngFor="let product of products | filterByName:nameSearch | sortByPrice:sortDirection" appBorderCard>
                 <img [src]="product.img" class="img-product" [alt]="product.alt">
                 <div class="card-body">
                     <h3 class="card-title">{{product.name}}</h3>
                     <p class="card-text"><strong>{{ product.price | currency:'EUR' }}</strong></p>
-                    <button class="btn btn-warning">Détails</button>
+                    <a class="btn btn-details" [routerLink]="['/products', product.id]">
+                        Détails
+                    </a>
                 </div>
             </div>
         </div>
@@ -16,5 +18,5 @@
 
 <ng-template #noResults>
   <p class="text-center mt-4" id="no-result">Par Toutatis aucun produit trouvé!</p>
-  <img class="img-fluid rounded-5" src="assets/images/image-no-result.jpg" alt="Image pour illustrer aucun résultat de recherche" />
+  <img class="img-fluid rounded-pill" src="assets/images/image-no-result.jpg" alt="Image pour illustrer aucun résultat de recherche" />
 </ng-template>

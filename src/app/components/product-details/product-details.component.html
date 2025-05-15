@@ -1,0 +1,13 @@
+<div class="container text-center rounded-5 mt-5 mb-5 pt-3 w-50">
+  <h2 class="text-break mb-5 mt-5">{{ product?.name }}</h2>
+  <img
+    *ngIf="product"
+    [src]="product.img"
+    [alt]="product.alt"
+    class="img-fluid mb-5 rounded-5"
+  >
+  <p *ngIf="product">{{ product.description }}</p>
+  <p *ngIf="product"><strong>Dimension : </strong>{{ product.dimension }}</p>
+  <p *ngIf="product"><strong>Prix : </strong>{{ product.price | currency:'EUR' }}</p>
+  <button routerLink="/products" class="btn btn-return mt-3 mb-5">← Retour</button>
+</div>

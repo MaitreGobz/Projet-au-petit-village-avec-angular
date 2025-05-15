@@ -1,4 +1,4 @@
-<section class="home">
+<section>
     <div class="presentation">
         <div *ngFor="let info of infos">
             <h1 class="m-3">{{ info.title }}</h1>
@@ -20,6 +20,6 @@
             <option value="ascending">Prix croissant</option>
             <option value="descending">Prix décroissant</option>
         </select>
-        <app-products [products]="products" [sortDirection]="sortPrice" [nameSearch]="nameSearch"></app-products>
+        <app-products-cards [products]="products" [sortDirection]="sortPrice" [nameSearch]="nameSearch"></app-products-cards>
     </div>
 </section>
