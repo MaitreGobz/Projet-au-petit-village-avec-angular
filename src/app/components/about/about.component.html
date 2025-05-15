@@ -1,0 +1,13 @@
+<section class="m-5">
+    <div class="container-fluid about-us text-center p-5 w-75" *ngFor="let about of abouts">
+        <h1 class="text-uppercase mb-5 mt-2">{{about.title}}</h1>
+        <p class="mb-5">
+            {{about.text}}
+        </p>
+        <img class="img-fluid rounded-circle" [src]="about.img" [alt]="about.alt">
+
+        <p class="mb-5 mt-5">
+            {{about.mission}}
+        </p>
+    </div>
+</section>

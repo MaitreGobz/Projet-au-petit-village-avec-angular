@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { AboutService } from '../about.service';
-import { NgFor } from '@angular/common';
+import { AboutService } from '../../services/about.service';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 
 @Component({
   selector: 'app-header',
-  imports: [NgFor],
+  imports: [CommonModule, RouterModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
