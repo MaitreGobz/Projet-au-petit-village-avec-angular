@@ -1,59 +1,87 @@
 # ProjetAuPetitVillageAngular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
+Ce projet a été généré avec [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 
-## Development server
+## Présentation du projet
 
-To start a local development server, run:
+Ce projet à été réalisé dans le cadre d'une formation de développeur web et web mobile au sein du CEF.
+
+## Technologies
+
+- [Angular v19 (Standalone Components)](https://angular.io/)
+- Bootstrap 5
+- TypeScript
+- HTML5 & CSS3
+
+## Installation
+
+### Prérequis
+
+- [Node.js ≥ 18](https://nodejs.org/)
+- [npm ≥ 9](https://www.npmjs.com/)
+- (Optionnel) [Angular CLI](https://angular.io/cli)
+
+### Cloner le dépôt GitHub
+
+```bash
+
+git clone https://github.com/maitregobz/Projet-au-petit-village-avec-angular.git
+
+cd Projet-au-petit-village-avec-angular
+```
+
+## Serveur de développement
+
+Pour démarrer un serveur de développement local, exécutez :
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Une fois le serveur lancé, ouvrez votre navigateur et accédez à ` http://localhost:4200/`. L'application se rechargera automatiquement dès que vous modifierez les fichiers sources.
 
-## Code scaffolding
+## Échafaudage de code
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI inclut de puissants outils d'échafaudage de code. Pour générer un nouveau composant, exécutez :
 
 ```bash
-ng generate component component-name
+ng generate component nom-composant
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Pour obtenir la liste complète des schémas disponibles (tels que  `components` ,  `directives`  ou  `pipes` ), exécutez :
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## Construction
 
-To build the project run:
+Pour construire le projet, exécutez :
 
 ```bash
-ng build
+ngbuild
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Votre projet sera compilé et les artefacts de construction seront stockés dans le répertoire « dist/ ». Par défaut, la construction de production optimise les performances et la vitesse de votre application.
 
-## Running unit tests
+## Exécution de tests unitaires
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Pour exécuter des tests unitaires avec le lanceur de tests [Karma](https://karma-runner.github.io), utilisez la commande suivante :
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Exécution de tests de bout en bout
 
-For end-to-end (e2e) testing, run:
+Pour les tests de bout en bout (e2e), exécutez :
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Angular CLI n'est pas fourni avec un framework de test de bout en bout par défaut. Vous pouvez en choisir un qui correspond à vos besoins.
 
-## Additional Resources
+## Ressources supplémentaires
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Pour plus d'informations sur l'utilisation d'Angular CLI, notamment des références détaillées sur les commandes, consultez la page [Présentation et référence des commandes d'Angular CLI](https://angular.dev/tools/cli).
